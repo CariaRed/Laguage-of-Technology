@@ -1,0 +1,55 @@
+<!JAVASCRIPT>
+
+const pessoa1 = {
+    nome: 'Luiz',
+    sobrenome: 'azevedo',
+    idade: 74
+
+}
+
+const pessoa2 = {
+    nome: 'Maria',
+    sobrenome: 'cristina',
+    idade: 85
+
+}
+console.log(pessoa1, pessoa2)
+
+============================================================================
+const pessoa2 = {
+    nome: 'Maria',
+    sobrenome: 'cristina',
+    idade: 85,
+    
+
+    fala() {
+        console.log(`${this.nome} ${this.sobrenome} estou falando oi`);
+}
+};
+
+
+const pessoa1 = {
+    nome: 'Luiz',
+    sobrenome: 'azevedo',
+    idade: 74,
+    problema: 'calvisse',
+
+    fala() {
+    console.log(`${this.nome} ${this.sobrenome} estou falando oi mas estou com um problema a ${this.problema} tem acabado comigo logo nos meus 20 anos, é difícil viver assim mas tenho que aguentar`);
+}    
+};
+
+pessoa1.fala();
+pessoa2.fala();
+
+======================================================================================================
+
+function saudaçao (nome) {
+    console.log(`Boa tarde ${nome}`)
+    
+
+}
+saudaçao('lucio freitas')
+
+=======================================================================================================
+
