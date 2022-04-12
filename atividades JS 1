@@ -1,0 +1,14 @@
+let AB= 'azul' // vermelho
+let BIC= 'vermelho' // azul
+let CD= 'verde' // laranja
+let DH= 'laranja' // verde
+
+const BICux= AB
+const DHux= CD
+AB = BIC;
+BIC = BICux;
+CD = DH;
+DH = DHux;
+console.log(AB, BIC, CD, DH)
+======================================================================
+
