@@ -1,0 +1,17 @@
+//                0        1       2
+const alunos = ['luiz', 'Maria', 'Jão']
+
+
+alunos [3] = 'lucio'
+alunos [4] = 'mauro'
+alunos [5] = 'mateus'
+console.log(alunos[0])
+console.log(alunos[1])
+console.log(alunos[2])
+console.log(alunos[3], alunos [4], alunos [5])
+
+resultado:
+luiz
+Maria
+Jão
+lucio mauro mateus
