@@ -21,7 +21,7 @@ incompleto
 // Função de formulario no javascript
 function meuEscopo(){
  const form = document.querySelector('.form')
- const resultado = document.querySelector('.resultado')
+ const resultado = document.querySelector('.resultado') // QUERYSELECTOR puxa as class do .html fazendo assim uma conexão
 
 const pessoas = []
 
