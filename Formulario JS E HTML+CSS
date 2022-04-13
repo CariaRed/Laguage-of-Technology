@@ -1,0 +1,83 @@
+function soma(x,y){
+    const resultado = x / y;
+    return resultado;
+}
+
+const resultado = soma(2,2)
+
+console.log(resultado)
+
+====================================================================
+function soma(x,y){
+    const resultado = x / y;
+    return resultado;
+}
+
+const soma = (2,2);
+console.log
+
+incompleto
+========================================================================
+// Função de formulario no javascript
+function meuEscopo(){
+ const form = document.querySelector('.form')
+ const resultado = document.querySelector('.resultado')
+
+const pessoas = []
+
+
+ function recebeEventoForm (evento) {
+    evento.preventDefault();
+
+    const Nome = form.querySelector('.Nome');
+    const Sobrenome = form.querySelector('.Sobrenome');
+    const Peso = form.querySelector('.Peso');
+    const Altura = form.querySelector('.Altura');
+
+ pessoas.push({
+   Nome: Nome.value,
+   Sobrenome: Sobrenome.value,
+   Peso: Peso.value,
+   Altura: Altura.value
+ });
+ console.log(pessoas);
+
+
+ resultado.innerHTML += `<p>${Nome.value}</P>`
+ resultado.innerHTML += `<p>${Sobrenome.value}</P>`
+ resultado.innerHTML += `<p>${Peso.value}</P>`
+ resultado.innerHTML += `<p>${Altura.value}</P>`
+ }
+ 
+ form.addEventListener('submit', recebeEventoForm);
+
+
+}
+
+meuEscopo();
+====================> NO DOCUMENTO HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+<title>Formulario</title>
+
+</head>
+<body>
+
+<form class="form" action="" method="get">
+ <p><strong>Nome*:</strong> <input type="text" class="Nome"></p>
+ <p><strong>Sobrenome*:</strong> <input type="text" class="Sobrenome"></p>
+ <p>Peso*: <input type="text" class="Peso"></p>
+ <p>Altura*: <input type="text" class="Altura"></p>
+ <p> <strong>(Obrigatório: *)</strong></p>
+ <button>Enviar</button>
+</form>
+
+<div class="resultado"></div>
+
+
+<script src="inc.js"></script>
+</body>
+</html>
