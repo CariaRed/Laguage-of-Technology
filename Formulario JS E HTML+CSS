@@ -49,7 +49,7 @@ const pessoas = []
  resultado.innerHTML += `<p>${Altura.value}</P>`
  }
  
- form.addEventListener('submit', recebeEventoForm);
+ form.addEventListener('submit', recebeEventoForm); // faz com que a lista formada no html seja pushada pelo botão Enviar e assim receber as informações.
 
 
 }
