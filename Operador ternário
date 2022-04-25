@@ -1,0 +1,34 @@
+let idade = 20;
+let podedirigir = (idade > 18 || idade == 19 && idade == 20) ? true : false; // '?' é então  e ':' é se não
+console.log(podedirigir); //true
+====================================================
+function max (x, y) {
+ if (x > y) {
+ return x;
+ } else {
+     return y;
+}
+
+}
+console.log(max(5, 2))
+==================================================================
+/*const max2 = (x, y) => x < y ? x : y;
+console.log(max2(30, 20));*/
+
+/*function ePaisagem(largura, altura) {
+    return largura > altura ? true : false;  
+}
+console.log(ePaisagem(1950, 1940))*/
+
+//const ePaisagem = (largura, altura)  !== largura > altura;
+//console.log(ePaisagem(1820, 1080)) // '=>' é return
+
+
+const pontuacaoUsuario = 99;
+const nivelUsuario = pontuacaoUsuario >= 100 ? "usuario vip" : 'usuario normal';
+
+constcorUsario = null
+
+
+
+console.log(nivelUsuario)
