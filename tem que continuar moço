@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Basico</title>
+     
+</head>
+<body>
+    <form>
+        <p>Formulário</p>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            Nome: <input type="text" name="nome"><br>
+            Endereço: <input type="text" name="endereco"><br>
+            Cidade:<input type="text" name="cidade"><br>
+
+            Estado:<select>
+                    <option value="AC">Acre</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="SP">São Paulo</option>
+
+
+
+
+
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>
