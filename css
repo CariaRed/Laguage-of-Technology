@@ -1,0 +1,16 @@
+ <div class="city">
+ <h2>Brasil</h2>
+ <p>Bom dia a todos</p></div>
+
+ <div class="city">
+ <h2>German</h2>
+ <p>Guten Morgen allerseits</p></div>
+ 
+ 
+ <div class="city">
+ <h2>Czechia</h2>
+ <p id="cor">Dobré ráno všem </p></div>
+
+//aumentar tamanho da fonte : font-size
+// a:visited a:link pra css
+// background-image: url(control+espaço (não esquece de salvar a imagem na pasta))
