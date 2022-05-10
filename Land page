@@ -2,63 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <title>land Page</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    
 <body>
-    <section class="sec">
-        <header>
-            <a href="#"><img src="imagens/logo.png" alt="" class="logo"></a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">What's New</a></li>
-                <li><a href="#">NewsLesther</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </header> <!--fim header-->
+    <section class="sec"><!--começo sessao-->
+        <header><!--inicio header-->
+            <a href="index.html"><img src="imagens/logo.png" alt="" class="logo"></a>
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Product</a></li>
+               <li><a href="#">LIGA NESCAU</a></li>
+               <li><a href="#">Joga Junto</a></li>
+               <li><a href="#">Receitas</a></li>
+           </ul>
+     </header><!--fim header-->
+     
+     <div class="content"> <!--inicio content-->
+        <div class="textbox"><!--inicio textbox-->
+            <h2>I like<br><span>The Madness</span>  </h2>
+            <p>Aqui podem ver sobre os novos produtos da nescau no ano de 2021 ;D</p>
+            <a href="">Veja os produtos</a>
+        </div><!--fim textbox-->
 
-        <div class="content">
-            <div class="textbox">
-                <h2>That's What<br><span>I Like</span></h2>
-                <p>texto.........</p>
-                <a href="#">View All products</a>
-            </div><!--fim do textbox-->
-            <div class="imgbox">
-                <img src="imagens/Nescau2.png" alt="" class="pepsi">
+        <div class="imgbox"><!--inico imgbox-->
+            <img src="imagens/Nescau2.png" alt="" title="Nescau reutilizavel ;D" class="nescau">
+        </div><!--fim imgbox-->
+     </div><!--fim content-->
 
-            </div><!--fim do imgbox-->
+     <ul class="thumb"><!--inico thumb-->
+         <li><img src="imagens/NescauDuo1.png" alt="" onclick="imgSlider('imagens/NescauDuo1.png');changeBgcolor('#0000ff')" title="Nescau Duo"></li>
+         <li><img src="imagens/Nescau2.png" alt="" onclick="imgSlider('imagens/Nescau2.png');changeBgcolor('#f70b0b')" title="Nescau"></li>
+         <li><img src="imagens/NescauIntense3.png" alt="" onclick="imgSlider('imagens/NescauIntense3.png');changeBgcolor('#9200be')" title="Nescau Intense" ></li>
+     </ul><!--fim thumb-->
 
-        </div><!--fim do content-->
-
-        <ul class="thumb">
-            <li><img src="imagens/NescauDuo1.png" onclick="imgSlider('imagens/NescauDuo1.png');changeBgcolor('#eafa0a')" title="Nescau Duo"></li>
-            <li><img src="imagens/Nescau2.png" onclick="imgSlider('imagens/Nescau2.png');changeBgcolor('#f70b0b')" title="Nescau"></li>
-            <li><img src="imagens/NescauIntense3.png" onclick="imgSlider('imagens/NescauIntense3.png');changeBgcolor('#9200be')" title="Nescau Intense"></li>
-
-        </ul><!--fim do thumb-->
-
-        <ul class="sci">
-            <li><a href="#"><img src="imagens/facebook.png"></a></li>
-            <li><a href="#"><img src="imagens/twitter.png"></a></li>
-            <li><a href="#"><img src="imagens/instagram.png"></a></li>
-        </ul><!--fim do sci-->
-
-    </section><!--fim seção-->
-
-    <script type="text/javascript">
-    function imgSlider(anything){
-        document.querySelector('.pepsi').src = anything;
+     <ul class="sci"><!--inicio sci-->
+         <li><a href="#"><img src="imagens/facebook.png" alt="" target="_blank"></a></li>
+         <li><a href="#"><img src="imagens/twitter.png" alt=""></a></li>
+         <li><a href="#"><img src="imagens/instagram.png" alt=""></a></li>
+     </ul><!--fim sci-->
+    
+    <script>
+        function imgSlider(anything){
+        document.querySelector('.nescau').src = anything;
     }
     function changeBgcolor(color){
         const sec = document.querySelector('.sec');
         sec.style.background = color;
     }
-
     </script>
-    
+    </section><!--fim sessao-->
 </body>
 </html>
 =============================================================
