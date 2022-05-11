@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     
 <body>
-    <section class="sec"><!--começo sessao-->
+    <section class="sec"><!--começo sssao-->
         <header><!--inicio header-->
             <a href="index.html"><img src="imagens/logo.png" alt="" class="logo"></a>
            <ul>
